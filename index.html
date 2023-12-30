@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuhammadFauziHabibi</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+
+        function displayTime(){
+            var clientTime=new Date();
+            var time=new Date(clientTime.getTime());
+            var sh=time.getHours().toString();
+            var sm=time.getMinutes().toString();
+            var ss=time.getSeconds().toString();
+        document.getElementById("jam").innerHTML=(sh.length==1?"0"+sh:sh)+":"+(sm.length==1?"0"+sm:sm)+":"+(ss.length==1?"0"+ss:ss);}
+        </script>
+</head>
+<body onload="setInterval('displayTime()',1000);">
+    <nav>
+        <div class="layar-dalam">
+            <div class="logo">
+                <a href=""><img src="img/hitam.png"  class="putih"></a>
+                <a href=""><img src="img/putih.png"  class="hitam"></a>
+            </div>
+            <div class="menu">
+                <a href="#" class="tombol-menu">
+                    <span class="garis"></span>
+                    <span class="garis"></span>
+                    <span class="garis"></span>
+                </a>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#mfh">MFH</a></li>
+                    <li><a href="#courses">Book</a></li>
+                    <li><a href="#study">Study</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#dll">dll</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="layar-penuh">
+        <header id="home">
+            <div class="overlay"></div>
+            <video autoplay muted loop>
+                <source src="img/Singularity Trailer- Ai-Generated.mp4" type="video/mp4"/>
+            </video>
+            <div class="intro">
+                <h3>MFH</h3>
+                <p>MFHChannel5005</p>
+                <p>
+                   <a href=""><h1 id="jam"></h1></a></a> 
+                </p>
+            </div>
+        </header>
+        <main>
+            <section id="mfh">
+                <div class="layar">
+                    <h3>MFH</h3>
+                    <P class="ringkasan">MFH adalah singkatan dari nama saya yaitu Muhammad Fauzi Habibi</P>
+                    <div class="konten-isi">
+                        <p>Website ini dibuat bersamaan dengan status saya sebagai Mahasiswa Baru Universitas Terbuka. didalam situs ini terdapat pembelajaran-pembelajaran selama menjadi seorang mahasiswa UT. Tujuan web ini dibuat adalah untuk menyimpan semua hasil kegiatan selama menjadi Mahasiswa UT.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="abuabu" id="courses">
+                <h3 class="book">Book</h3>
+                <div class="layar-dalam courses">
+
+                    <div>
+                        <img src="img/EKMA4434 si.jpg" alt="">
+                        <h4>Sistem Informasi Manajemen EKMA4434</h4>
+                        <p>Buku ini berjudul Sistem Informasi Manajemen, Penulis Jogiyanto, Semester satu. </p>
+                    </div>
+                    <div>
+                        <img src="img/MATA4101 mtk.jpg" alt="">
+                        <h4>Pengantar Matematika MATA4101</h4>
+                        <p>Buku ini berjudul pengantar matematika, penulis Warsito, semester satu.</p>
+                    </div>
+                    <div>
+                        <img src="img/MATA4110 kalkulus.jpg" alt="">
+                        <h4>Kalkulus I MATA4110</h4>
+                        <p>Buku ini berjudul Kalkulus, penulis Warsito, semester satu.</p>
+                    </div>
+                    <div>
+                        <img src="img/MKDK4111 pkn.jpg" alt="">
+                        <h4>Pendidikan Kewarganegaraan MKDK4111</h4>
+                        <P>Buku ini berjudul pendidikan kewarganegaraan, penulis Lasiyo dkk, semester satu.</P>
+                    </div>
+                    <div>
+                        <img src="img/MKWU410802 BHS INDO.jpeg" alt="">
+                        <h4>Bahasa Indonesia MATA4110</h4>
+                        <p>Buku ini berjudul bahasa indonesia, penulis Anang Santoso, semester satu</p>
+                    </div>
+                    <div>
+                        <img src="img/MKDU4421 pai.jpg" alt="">
+                        <h4>Pendidikan Agama Islam MKDU4421 </h4>
+                        <p>Buku ini berjudul pendidikan agama islam, penulis Ali Nurdin dkk, semester satu.</p>
+                    </div>
+                    <div>
+                        <img src="img/SATS4111-1 KOMPUTER 1.jpg" alt="">
+                        <h4>Komputer I SATS4111</h4>
+                        <p>Buku ini berjudul komputer 1, penulis A.P.Hardoko dkk, semester dua.</p>
+                    </div>
+                    <div>
+                        <img src="img/EKMA411101 PENGANTAR BISNIS.jpg" alt="">
+                        <h4>Pengantar Bisnis EKMA4116</h4>
+                        <p>Buku ini berjudul pengantar bisnis, penulis Ismail Solihin, semester dua.</p>
+                    </div>
+                    <div>
+                        <img src="img/EKMA411603 MANAJEMEN.jpg" alt="">
+                        <h4>Manajemen EKMA4116</h4>
+                        <p>Buku ini berjudul manajemen, penulis Mamduh M.Hanafi, semester dua. </p>
+                    </div>
+                    <div>
+                        <img src="img/MATA411203 ALJABAR.jpg" alt="">
+                        <h4>Aljabar Linear Elementer 1 MATA4112</h4>
+                        <p>Buku ini berjudul aljabar linear elementer, penulis R.J Pamuntjah, Warsito, semester dua.</p>
+                    </div>
+                    <div>
+                        <img src="img/MSIM4103 LOGIKA INFORMATIKA.jpg" alt="">
+                        <h4>Logika Informatika MSIM4103</h4>
+                        <p>Buku ini berjudul logika informatika, penulis Suprapto, semester dua.</p>
+                    </div>
+                    <div>
+                        <img src="img/MKWI4201 BHS INGGRIS.jpg" alt="">
+                        <h4>Bahasa Inggris MKWI4201</h4>
+                        <p>Buku ini berjudul bahasa inggris, penulis A.P.Hardoko dkk, semester dua.</p>
+                    </div>  
+                </div>
+            </section>
+            <section class="abuabu" id="study">
+                <h3 class="ringkasan">Study</h3>
+                <p class="ringkasan">Pada pembahasan dibawah ini adalah beberapa video/file yang saya simpan, agar bermanfaat bagi orang banyak.</p>
+                <br>
+                <div>
+                    <p class="dua">cara download dan rekam layar menggunakan bandicam, 9 des 2023</p>                
+                    <video src="video/bandi3.mp4" width=100% controls preload="none">cara install bandi</video>
+
+                    <p class="dua">cara download dan install R studio, 30 des 2023</p>
+                    <video src="video/install R studio.mp4" width=100% controls preload="none">cara install R studio</video>
+                </div>
+                
+            </section>
+            <section class="quote">
+                <div class="layar-dalam">
+                    <p>Website ini dibuat bersamaan dengan status saya sebagai Mahasiswa Baru Universitas Terbuka. didalam situs ini terdapat pembelajaran-pembelajaran selama menjadi seorang mahasiswa UT. Tujuan web ini dibuat adalah untuk menyimpan semua hasil kegiatan selama menjadi Mahasiswa UT.</p>
+                </div>
+            </section>
+            <section id="team">
+                <div class="layar-dalam">
+                    <h3>Our Team</h3>
+                    <p class="ringkasan">
+                        Tanpa adanya temen temen yang mendukung saya, saya tidak akan menjadi seperti sekarang ini
+                    </p>
+                    <div class="tim">
+                        <div>
+                            <a href="https://www.youtube.com/@fauzihabibi5005""><img src="img/logo.png" alt=""></a>
+                            <h6>MFH5OO5</h6>
+                            <span>My Channel</span>
+                            <a href=""></a>
+                        </div>
+                        <div>
+                            <a href="https://www.ut.ac.id/"><img src="img/Logo-Universitas-Terbuka.png" alt=""></a>
+                            <h6>Universitas Terbuka</h6>
+                            <span>My Universitas</span>
+                        </div>
+                        <div>
+                            <a href="https://www.man2jember.sch.id/"><img src="img/LOGO MAN 2 Jember.jpg" alt=""></a>
+                            <h6>MAN 2 Jember</h6>
+                            <span>My work</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="abuabu" id="contact">
+                <div class="layar-dalam">
+                    <h3>Latest Contact</h3>
+                    <p class="ringkasan">
+                        Apabila terdapat kesalahan pada website, bisa hubungi contact dibawah ini
+                    </p>
+                    <div class="contact">
+                        <div class="area">
+                            <div class="gambar" style="background-image: url(img/coding.jpg)"></div>
+                            <div class="text">
+                                <article>
+                                    <h4><a href="none">MFH5005</a></h4>
+                                    <P>Email: teknisimandua@gmail.com</P>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="area">
+                            <div class="gambar" style="background-image: url(img/jawa.jpg)"></div>
+                            <div class="text">
+                                <article>
+                                    <h4><a href="https://www.facebook.com/muhammadfauzihabibi/">facebook</a></h4>
+                                    <P><a href="https://www.facebook.com/muhammadfauzihabibi/">facebook</a></P>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="dll">
+            <div class="layar-dalam">
+                <div>
+                    <h5>Info</h5>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, ab!
+                </div>
+                <div>
+                    <h5>Sitemap</h5>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, ab!
+                </div>
+                <div>
+                    <h5>Help</h5>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, ab!
+                </div>
+            </div>
+            <div class="layar-dalam">
+                <div class="copyright">
+                    &copy 2023 Muhammad Fauzi Habibi
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--codejquery.com pilih cdn pilih yg minified-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
