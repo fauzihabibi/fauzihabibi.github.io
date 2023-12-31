@@ -228,7 +228,7 @@ h3 {
 }
 
 .courses,
-.tim, {
+.tim {
     display: block;
     flex-direction: row;
     justify-content: space-around;
