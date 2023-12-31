@@ -14,6 +14,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-image: url(img/bw.jpg);
 }
 
 .layar-dalam {
@@ -208,6 +209,10 @@ h3 {
     text-align: center;
 }
 
+#courses {
+    background-image: url(img/bw.jpg);
+}
+
 .courses,
 .tim, {
     display: block;
@@ -392,7 +397,7 @@ footer .layar-dalam .copyright {
         line-height: 40px;
     }
     nav .menu ul li a {
-        color: #f4f808;
+        color: #061de9;
     }
     nav .menu ul li a:hover {
         color: red;
