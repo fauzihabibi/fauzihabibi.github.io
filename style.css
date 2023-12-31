@@ -178,11 +178,12 @@ section h3::after {
 section p.ringkasan {
     font-style: italic;
     font-size: 18px;
-    color: #ababab;
+    color: #be0b0b;
 }
 
 section .konten-isi p {
     font-style: normal;
+    color: #061de9;
 }
 
 nav.putih {
@@ -211,6 +212,19 @@ h3 {
 
 #courses {
     background-image: url(img/bw.jpg);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    
+}
+
+.flex-item {
+    display: flex;
+    
+    margin: 10px;
 }
 
 .courses,
@@ -253,6 +267,11 @@ section#study .ringkasan {
 
 section#study .video {
     text-align: center;
+    width: 80%;
+}
+
+section#study .video .dua {
+    color: #061de9;
 }
 
 section#study div {
