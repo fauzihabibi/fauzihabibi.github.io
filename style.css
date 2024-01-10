@@ -218,12 +218,11 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    
 }
 
 .flex-item {
     display: flex;
-    
+    flex-wrap: wrap;
     margin: 10px;
 }
 
