@@ -226,11 +226,22 @@ h3 {
     margin: 10px;
 }
 
+.flex-item :hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.tim div:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
 .courses,
 .tim {
-    display: block;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 
 .courses h4,
