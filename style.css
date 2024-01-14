@@ -327,6 +327,18 @@ article {
     text-decoration: none;
 }
 
+section.quotefrend {
+    background: url(img/quotefrend.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    padding: 100px;
+}
+
 #contact {
     text-align: center;  
 }
