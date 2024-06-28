@@ -115,6 +115,15 @@ body {
 	border-bottom: 5px solid salmon;
 }
 
+.hero1 {
+	height: 400px;
+	background-image: url(img/tim\ it.png); 
+	background-size: cover;
+	background-position: 0 -200px;
+	border-top: 5px solid lightskyblue;
+	border-bottom: 5px solid salmon;
+}
+
 .main {
 	width: 600px;
 	padding: 20px;
